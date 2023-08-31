@@ -1,0 +1,365 @@
+2023-08-22 09:38:10.486 [background-preinit] INFO  org.hibernate.validator.internal.util.Version:21 - HV000001: Hibernate Validator 6.2.5.Final
+2023-08-22 09:38:10.511 [main] INFO  org.jeecg.JeecgSystemApplication:55 - Starting JeecgSystemApplication using Java 1.8.0_101 on FixedGear-Amateur with PID 13652 (E:\JavaProjects\随记\Notes\Notes_Boot\jeecg-module-system\jeecg-system-start\target\classes started by Awave in E:\JavaProjects\随记\Notes\Notes_Boot)
+2023-08-22 09:38:10.512 [main] INFO  org.jeecg.JeecgSystemApplication:637 - The following 1 profile is active: "dev"
+2023-08-22 09:38:16.106 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:262 - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-22 09:38:16.109 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-22 09:38:16.223 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 93 ms. Found 0 Redis repository interfaces.
+2023-08-22 09:38:16.372 [main] INFO  o.j.minidao.auto.MinidaoAutoConfiguration:23 -  ******************* init miniDao config [ begin ] *********************** 
+2023-08-22 09:38:16.372 [main] INFO  o.j.minidao.auto.MinidaoAutoConfiguration:25 -  ------ minidao.base-package ------- org.jeecg.modules.jmreport.*,org.jeecg.modules.drag.*
+2023-08-22 09:38:16.373 [main] INFO  o.j.minidao.auto.MinidaoAutoConfiguration:42 -  *******************  init miniDao config  [ end ] *********************** 
+2023-08-22 09:38:16.465 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDao }
+2023-08-22 09:38:16.466 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDataSourceDao }
+2023-08-22 09:38:16.466 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDbDao }
+2023-08-22 09:38:16.466 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDbFieldDao }
+2023-08-22 09:38:16.467 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDbParamDao }
+2023-08-22 09:38:16.467 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDictDao }
+2023-08-22 09:38:16.467 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDictItemDao }
+2023-08-22 09:38:16.467 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportLinkDao }
+2023-08-22 09:38:16.467 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportMapDao }
+2023-08-22 09:38:16.467 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportShareDao }
+2023-08-22 09:38:16.467 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.drag.dao.OnlDragCompDao }
+2023-08-22 09:38:16.467 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.drag.dao.OnlDragDatasetHeadDao }
+2023-08-22 09:38:16.468 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.drag.dao.OnlDragDatasetItemDao }
+2023-08-22 09:38:16.468 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.drag.dao.OnlDragDatasetParamDao }
+2023-08-22 09:38:16.468 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.drag.dao.OnlDragDataSourceDao }
+2023-08-22 09:38:16.468 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.drag.dao.OnlDragPageCompDao }
+2023-08-22 09:38:16.468 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.drag.dao.OnlDragPageDao }
+2023-08-22 09:38:16.803 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#3b56947a#16' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:16.808 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'onlDragPageDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:16.809 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#3b56947a#15' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:16.810 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'onlDragPageCompDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:16.811 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#3b56947a#14' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:16.812 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'onlDragDataSourceDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:16.813 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#3b56947a#13' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:16.814 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'onlDragDatasetParamDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:16.815 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#3b56947a#12' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:16.816 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'onlDragDatasetItemDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:16.817 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#3b56947a#11' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:16.818 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'onlDragDatasetHeadDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:16.819 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#3b56947a#10' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:16.820 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'onlDragCompDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:16.821 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#3b56947a#9' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:16.821 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jimuReportShareDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:16.822 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#3b56947a#8' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:16.823 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jimuReportMapDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:16.824 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#3b56947a#7' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:16.825 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jimuReportLinkDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:16.825 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#3b56947a#6' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:16.826 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jimuReportDictItemDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:16.827 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#3b56947a#5' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:16.828 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jimuReportDictDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:16.828 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#3b56947a#4' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:16.829 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jimuReportDbParamDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:16.830 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#3b56947a#3' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:16.830 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jimuReportDbFieldDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:16.831 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#3b56947a#2' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:16.832 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jimuReportDbDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:16.833 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#3b56947a#1' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:16.834 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jimuReportDataSourceDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:16.835 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean '(inner bean)#3b56947a' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:16.835 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jimuReportDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:16.849 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:16.851 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:16.871 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'org.springframework.boot.actuate.autoconfigure.metrics.redis.LettuceMetricsAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.redis.LettuceMetricsAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:16.873 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusMetricsExportAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusMetricsExportAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:16.877 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'management.metrics.export.prometheus-org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusProperties' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:16.880 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'prometheusConfig' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusPropertiesConfigAdapter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:16.882 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'collectorRegistry' of type [io.prometheus.client.CollectorRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:16.883 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'org.springframework.boot.actuate.autoconfigure.metrics.MetricsAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.MetricsAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:16.884 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'micrometerClock' of type [io.micrometer.core.instrument.Clock$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:16.912 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'prometheusMeterRegistry' of type [io.micrometer.prometheus.PrometheusMeterRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:16.916 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'micrometerOptions' of type [io.lettuce.core.metrics.MicrometerOptions] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:16.917 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'lettuceMetrics' of type [org.springframework.boot.actuate.autoconfigure.metrics.redis.LettuceMetricsAutoConfiguration$$Lambda$443/423207828] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:17.014 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:17.105 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:17.109 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jeecgBaseConfig' of type [org.jeecg.config.JeecgBaseConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:17.112 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'shiroConfig' of type [org.jeecg.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$9a78012a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:17.385 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:17.392 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$a4ca2a02] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:17.399 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:17.443 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'shiroRealm' of type [org.jeecg.config.shiro.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:17.561 [main] INFO  org.jeecg.config.shiro.ShiroConfig:226 - ===============(1)创建缓存管理器RedisCacheManager
+2023-08-22 09:38:17.563 [main] INFO  org.jeecg.config.shiro.ShiroConfig:244 - ===============(2)创建RedisManager,连接Redis..
+2023-08-22 09:38:17.567 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'redisManager' of type [org.crazycake.shiro.RedisManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:17.575 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:17.604 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:17.628 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration' of type [org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration$$EnhancerBySpringCGLIB$$4e5496e1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:17.632 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'eventBus' of type [org.apache.shiro.event.support.DefaultEventBus] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-22 09:38:18.006 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:108 - Tomcat initialized with port(s): 8081 (http)
+2023-08-22 09:38:18.016 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8081"]
+2023-08-22 09:38:18.017 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2023-08-22 09:38:18.017 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-08-22 09:38:18.185 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/notes]:173 - Initializing Spring embedded WebApplicationContext
+2023-08-22 09:38:18.185 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:292 - Root WebApplicationContext: initialization completed in 7595 ms
+2023-08-22 09:38:18.365 [main] INFO  o.j.m.jmreport.config.init.JimuReportConfiguration:99 -  Init JimuReport Config [ Token Interceptor & Resource Locations ] 
+2023-08-22 09:38:19.254 [main] INFO  com.alibaba.druid.pool.DruidDataSource:985 - {dataSource-1,master} inited
+2023-08-22 09:38:19.255 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:132 - dynamic-datasource - load a datasource named [master] success
+2023-08-22 09:38:19.255 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:237 - dynamic-datasource initial loaded [1] datasource,primary datasource named [master]
+2023-08-22 09:38:21.199 [main] INFO  org.jeecg.common.modules.redis.config.RedisConfig:56 -  --- redis config init --- 
+2023-08-22 09:38:22.682 [main] INFO  org.quartz.impl.StdSchedulerFactory:1220 - Using default implementation for ThreadExecutor
+2023-08-22 09:38:22.686 [main] INFO  org.quartz.simpl.SimpleThreadPool:268 - Job execution threads will use class loader of thread: main
+2023-08-22 09:38:22.695 [main] INFO  org.quartz.core.SchedulerSignalerImpl:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-08-22 09:38:22.695 [main] INFO  org.quartz.core.QuartzScheduler:229 - Quartz Scheduler v.2.3.2 created.
+2023-08-22 09:38:22.698 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:672 - Using db table-based data access locking (synchronization).
+2023-08-22 09:38:22.700 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:145 - JobStoreCMT initialized.
+2023-08-22 09:38:22.701 [main] INFO  org.quartz.core.QuartzScheduler:294 - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'MyScheduler' with instanceId 'FixedGear-Amateur1692668302685'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2023-08-22 09:38:22.701 [main] INFO  org.quartz.impl.StdSchedulerFactory:1374 - Quartz scheduler 'MyScheduler' initialized from an externally provided properties instance.
+2023-08-22 09:38:22.701 [main] INFO  org.quartz.impl.StdSchedulerFactory:1378 - Quartz scheduler version: 2.3.2
+2023-08-22 09:38:22.701 [main] INFO  org.quartz.core.QuartzScheduler:2293 - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@59da4992
+2023-08-22 09:38:24.759 [main] INFO  o.j.modules.jmreport.config.JmReportExecutorConfig:42 -  Init JimuReport Config [ 线程池 ] 
+2023-08-22 09:38:26.777 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver:58 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2023-08-22 09:38:27.054 [main] INFO  org.jeecg.config.init.CodeGenerateDbConfig:46 -  Init CodeGenerate Config [ Get Db Config From application.yml ] 
+2023-08-22 09:38:28.351 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8081"]
+2023-08-22 09:38:28.373 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:220 - Tomcat started on port(s): 8081 (http) with context path '/notes'
+2023-08-22 09:38:30.199 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:734 - Will start Quartz Scheduler [MyScheduler] in 1 seconds
+2023-08-22 09:38:30.215 [main] INFO  org.jeecg.JeecgSystemApplication:61 - Started JeecgSystemApplication in 20.512 seconds (JVM running for 23.299)
+2023-08-22 09:38:30.221 [main] INFO  org.jeecg.config.init.CodeTemplateInitListener:29 -  Init Code Generate Template [ 检测如果是JAR启动环境，Copy模板到config目录 ] 
+2023-08-22 09:38:30.274 [main] INFO  org.jeecg.JeecgSystemApplication:35 - 
+----------------------------------------------------------
+	Application Jeecg-Boot is running! Access URLs:
+	Local: 		http://localhost:8081/notes/
+	External: 	http://50.50.48.102:8081/notes/
+	Swagger文档: 	http://50.50.48.102:8081/notes/doc.html
+----------------------------------------------------------
+2023-08-22 09:38:31.206 [Quartz Scheduler [MyScheduler]] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:750 - Starting Quartz Scheduler now, after delay of 1 seconds
+2023-08-22 09:38:31.292 [RMI TCP Connection(8)-50.50.48.102] INFO  o.a.c.c.C.[Tomcat].[localhost].[/notes]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-22 09:38:31.292 [RMI TCP Connection(8)-50.50.48.102] INFO  org.springframework.web.servlet.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2023-08-22 09:38:31.295 [RMI TCP Connection(8)-50.50.48.102] INFO  org.springframework.web.servlet.DispatcherServlet:547 - Completed initialization in 2 ms
+2023-08-22 09:38:31.323 [Quartz Scheduler [MyScheduler]] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:3644 - ClusterManager: detected 1 failed or restarted instances.
+2023-08-22 09:38:31.324 [Quartz Scheduler [MyScheduler]] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:3503 - ClusterManager: Scanning for instance "FixedGear-Amateur1692609291795"'s failed in-progress jobs.
+2023-08-22 09:38:31.337 [Quartz Scheduler [MyScheduler]] INFO  org.quartz.core.QuartzScheduler:547 - Scheduler MyScheduler_$_FixedGear-Amateur1692668302685 started.
+2023-08-22 09:39:40.647 [http-nio-8081-exec-3] INFO  o.j.modules.system.service.impl.SysUserServiceImpl:818 -  登录接口用户的租户ID = 0
+2023-08-22 09:39:41.134 [http-nio-8081-exec-5] INFO  o.j.c.desensitization.aspect.SensitiveDataAspect:76 - 加密操作，Aspect程序耗时：12ms
+2023-08-22 09:39:41.136 [http-nio-8081-exec-2] INFO  o.j.c.desensitization.aspect.SensitiveDataAspect:76 - 加密操作，Aspect程序耗时：14ms
+2023-08-22 09:39:41.229 [http-nio-8081-exec-2] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:1
+2023-08-22 09:43:58.131 [http-nio-8081-exec-1] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:0
+2023-08-22 09:45:22.154 [http-nio-8081-exec-3] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:1
+2023-08-22 09:45:40.756 [http-nio-8081-exec-10] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:0
+2023-08-22 09:45:41.724 [http-nio-8081-exec-1] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:1
+2023-08-22 09:46:56.410 [http-nio-8081-exec-5] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:0
+2023-08-22 09:48:26.518 [http-nio-8081-exec-6] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:1
+2023-08-22 09:48:42.621 [http-nio-8081-exec-9] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:0
+2023-08-22 09:49:01.438 [http-nio-8081-exec-10] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:1
+2023-08-22 09:49:16.882 [http-nio-8081-exec-3] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:0
+2023-08-22 09:49:18.012 [http-nio-8081-exec-2] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:1
+2023-08-22 09:57:37.822 [http-nio-8081-exec-8] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:0
+2023-08-22 09:57:39.038 [http-nio-8081-exec-9] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:1
+2023-08-22 09:59:38.109 [http-nio-8081-exec-3] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:0
+2023-08-22 10:01:00.326 [http-nio-8081-exec-5] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:1
+2023-08-22 10:03:41.241 [http-nio-8081-exec-8] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:0
+2023-08-22 10:07:44.967 [http-nio-8081-exec-4] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:1
+2023-08-22 10:09:11.735 [http-nio-8081-exec-3] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:0
+2023-08-22 10:09:12.808 [http-nio-8081-exec-2] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:1
+2023-08-22 10:12:59.126 [http-nio-8081-exec-8] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:0
+2023-08-22 10:13:00.667 [http-nio-8081-exec-9] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:1
+2023-08-22 10:13:06.853 [http-nio-8081-exec-7] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:0
+2023-08-22 10:13:07.776 [http-nio-8081-exec-6] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:1
+2023-08-22 10:19:24.945 [http-nio-8081-exec-10] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:0
+2023-08-22 10:19:32.176 [http-nio-8081-exec-1] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:1
+2023-08-22 10:19:48.710 [http-nio-8081-exec-2] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:0
+2023-08-22 10:19:52.185 [http-nio-8081-exec-7] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:1
+2023-08-22 10:19:59.164 [http-nio-8081-exec-4] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:0
+2023-08-22 10:20:01.548 [http-nio-8081-exec-9] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:1
+2023-08-22 10:20:21.069 [http-nio-8081-exec-6] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:0
+2023-08-22 10:20:24.001 [http-nio-8081-exec-4] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:1
+2023-08-22 10:20:25.776 [http-nio-8081-exec-3] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:0
+2023-08-22 10:20:34.837 [http-nio-8081-exec-1] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:1
+2023-08-22 10:25:47.583 [http-nio-8081-exec-3] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:0
+2023-08-22 10:25:49.384 [http-nio-8081-exec-5] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:1
+2023-08-22 10:26:20.173 [http-nio-8081-exec-8] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:0
+2023-08-22 10:26:22.233 [http-nio-8081-exec-7] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:1
+2023-08-22 10:26:49.445 [http-nio-8081-exec-4] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:0
+2023-08-22 10:26:51.170 [http-nio-8081-exec-9] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:1
+2023-08-22 10:27:14.992 [http-nio-8081-exec-5] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:0
+2023-08-22 10:27:17.970 [http-nio-8081-exec-2] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:1
+2023-08-22 10:27:47.208 [http-nio-8081-exec-7] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:0
+2023-08-22 10:27:48.198 [http-nio-8081-exec-10] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:1
+2023-08-22 10:27:50.233 [http-nio-8081-exec-9] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:0
+2023-08-22 10:28:30.322 [http-nio-8081-exec-1] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:1
+2023-08-22 10:28:34.748 [http-nio-8081-exec-2] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:0
+2023-08-22 10:28:35.626 [http-nio-8081-exec-6] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:1
+2023-08-22 10:28:44.460 [http-nio-8081-exec-10] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:0
+2023-08-22 10:30:21.347 [http-nio-8081-exec-9] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:1
+2023-08-22 10:30:23.586 [http-nio-8081-exec-8] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:0
+2023-08-22 10:31:25.517 [http-nio-8081-exec-7] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:1
+2023-08-22 10:34:24.671 [http-nio-8081-exec-3] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:0
+2023-08-22 10:34:59.146 [http-nio-8081-exec-5] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:1
+2023-08-22 10:35:01.331 [http-nio-8081-exec-8] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:0
+2023-08-22 10:35:32.568 [http-nio-8081-exec-2] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:1
+2023-08-22 10:35:38.432 [http-nio-8081-exec-7] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:0
+2023-08-22 10:35:39.732 [http-nio-8081-exec-1] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:1
+2023-08-22 10:36:02.226 [http-nio-8081-exec-2] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:0
+2023-08-22 10:36:32.006 [http-nio-8081-exec-6] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:1
+2023-08-22 10:36:35.494 [http-nio-8081-exec-5] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:0
+2023-08-22 10:38:04.271 [http-nio-8081-exec-4] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:1
+2023-08-22 10:43:22.838 [http-nio-8081-exec-6] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:0
+2023-08-22 10:43:24.812 [http-nio-8081-exec-7] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:1
+2023-08-22 10:46:16.764 [http-nio-8081-exec-9] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:0
+2023-08-22 11:05:18.651 [http-nio-8081-exec-3] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:1
+2023-08-22 11:05:21.276 [http-nio-8081-exec-5] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:0
+2023-08-22 11:13:17.123 [http-nio-8081-exec-4] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:1
+2023-08-22 11:13:24.722 [http-nio-8081-exec-10] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:0
+2023-08-22 11:13:55.200 [http-nio-8081-exec-9] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:1
+2023-08-22 11:14:00.149 [http-nio-8081-exec-4] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:0
+2023-08-22 11:14:19.642 [http-nio-8081-exec-2] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:1
+2023-08-22 11:14:21.452 [http-nio-8081-exec-9] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:0
+2023-08-22 11:14:51.060 [http-nio-8081-exec-3] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:1
+2023-08-22 11:15:31.743 [http-nio-8081-exec-6] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:0
+2023-08-22 11:16:55.946 [http-nio-8081-exec-4] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:1
+2023-08-22 11:20:14.044 [http-nio-8081-exec-9] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:0
+2023-08-22 11:20:32.032 [http-nio-8081-exec-8] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:1
+2023-08-22 11:32:29.216 [http-nio-8081-exec-7] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:0
+2023-08-22 11:32:31.257 [http-nio-8081-exec-10] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:1
+2023-08-22 11:34:29.057 [http-nio-8081-exec-9] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:0
+2023-08-22 11:38:51.520 [lettuce-nioEventLoop-4-3] INFO  io.lettuce.core.protocol.CommandHandler:217 - null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:745)
+2023-08-22 11:38:51.520 [lettuce-nioEventLoop-4-2] INFO  io.lettuce.core.protocol.CommandHandler:217 - null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:745)
+2023-08-22 11:38:51.533 [lettuce-nioEventLoop-4-2] WARN  io.netty.channel.nio.NioEventLoop:628 - Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@4caa97fb.
+2023-08-22 11:38:51.533 [lettuce-nioEventLoop-4-3] WARN  io.netty.channel.nio.NioEventLoop:628 - Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@628777c3.
+2023-08-22 11:38:51.537 [lettuce-nioEventLoop-4-3] INFO  io.netty.channel.nio.NioEventLoop:499 - Migrated 0 channel(s) to the new Selector.
+2023-08-22 11:38:51.537 [lettuce-nioEventLoop-4-2] INFO  io.netty.channel.nio.NioEventLoop:499 - Migrated 0 channel(s) to the new Selector.
+2023-08-22 11:38:51.615 [lettuce-eventExecutorLoop-1-8] INFO  io.lettuce.core.protocol.ConnectionWatchdog:171 - Reconnecting, last destination was /127.0.0.1:6379
+2023-08-22 11:38:51.615 [lettuce-eventExecutorLoop-1-10] INFO  io.lettuce.core.protocol.ConnectionWatchdog:171 - Reconnecting, last destination was /127.0.0.1:6379
+2023-08-22 11:38:51.626 [lettuce-nioEventLoop-4-5] WARN  io.netty.channel.nio.NioEventLoop:628 - Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@34344410.
+2023-08-22 11:38:51.627 [lettuce-nioEventLoop-4-4] WARN  io.netty.channel.nio.NioEventLoop:628 - Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@71ba3bbb.
+2023-08-22 11:38:51.676 [lettuce-nioEventLoop-4-4] INFO  io.netty.channel.nio.NioEventLoop:499 - Migrated 1 channel(s) to the new Selector.
+2023-08-22 11:38:51.676 [lettuce-nioEventLoop-4-5] INFO  io.netty.channel.nio.NioEventLoop:499 - Migrated 1 channel(s) to the new Selector.
+2023-08-22 11:38:51.682 [lettuce-nioEventLoop-4-5] INFO  io.lettuce.core.protocol.ReconnectionHandler:174 - Reconnected to 127.0.0.1:6379
+2023-08-22 11:38:51.683 [lettuce-nioEventLoop-4-4] INFO  io.lettuce.core.protocol.ReconnectionHandler:174 - Reconnected to 127.0.0.1:6379
+2023-08-22 11:43:14.396 [http-nio-8081-exec-3] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:1
+2023-08-22 11:43:52.035 [http-nio-8081-exec-6] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:0
+2023-08-22 11:49:38.219 [http-nio-8081-exec-4] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:1
+2023-08-22 11:50:14.693 [http-nio-8081-exec-1] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:0
+2023-08-22 11:50:16.547 [http-nio-8081-exec-9] INFO  org.jeecg.modules.message.websocket.WebSocket:43 - 【系统 WebSocket】有新的连接，总数为:1
+2023-08-22 13:09:04.996 [http-nio-8081-exec-6] WARN  org.jeecg.modules.message.websocket.WebSocket:132 - 【系统 WebSocket】消息出现错误
+2023-08-22 13:09:05.009 [http-nio-8081-exec-6] INFO  org.jeecg.modules.message.websocket.WebSocket:52 - 【系统 WebSocket】连接断开，总数为:0
+2023-08-22 14:03:54.356 [lettuce-nioEventLoop-4-1] WARN  io.netty.channel.nio.NioEventLoop:628 - Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@19cd9338.
+2023-08-22 14:03:54.356 [lettuce-nioEventLoop-4-3] WARN  io.netty.channel.nio.NioEventLoop:628 - Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@3d822e3b.
+2023-08-22 14:03:54.360 [lettuce-nioEventLoop-4-3] INFO  io.netty.channel.nio.NioEventLoop:499 - Migrated 0 channel(s) to the new Selector.
+2023-08-22 14:03:54.360 [lettuce-nioEventLoop-4-1] INFO  io.netty.channel.nio.NioEventLoop:499 - Migrated 1 channel(s) to the new Selector.
+2023-08-22 14:03:54.378 [lettuce-nioEventLoop-4-2] WARN  io.netty.channel.nio.NioEventLoop:628 - Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@4593106d.
+2023-08-22 14:03:54.380 [lettuce-nioEventLoop-4-2] INFO  io.netty.channel.nio.NioEventLoop:499 - Migrated 0 channel(s) to the new Selector.
+2023-08-22 14:03:54.383 [lettuce-nioEventLoop-4-4] INFO  io.lettuce.core.protocol.CommandHandler:217 - null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:745)
+2023-08-22 14:03:54.394 [lettuce-nioEventLoop-4-4] WARN  io.netty.channel.nio.NioEventLoop:628 - Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@6b802341.
+2023-08-22 14:03:54.397 [lettuce-nioEventLoop-4-4] INFO  io.netty.channel.nio.NioEventLoop:499 - Migrated 0 channel(s) to the new Selector.
+2023-08-22 14:03:54.406 [lettuce-eventExecutorLoop-1-6] INFO  io.lettuce.core.protocol.ConnectionWatchdog:171 - Reconnecting, last destination was /127.0.0.1:6379
+2023-08-22 14:03:54.422 [lettuce-nioEventLoop-4-5] WARN  io.netty.channel.nio.NioEventLoop:628 - Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@65e7ac17.
+2023-08-22 14:03:54.424 [lettuce-nioEventLoop-4-6] INFO  io.lettuce.core.protocol.ReconnectionHandler:174 - Reconnected to 127.0.0.1:6379
+2023-08-22 14:03:54.425 [lettuce-nioEventLoop-4-5] INFO  io.netty.channel.nio.NioEventLoop:499 - Migrated 1 channel(s) to the new Selector.
+2023-08-22 14:03:54.431 [lettuce-nioEventLoop-4-6] WARN  io.netty.channel.nio.NioEventLoop:628 - Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@11aa47a8.
+2023-08-22 14:03:54.433 [lettuce-nioEventLoop-4-6] INFO  io.netty.channel.nio.NioEventLoop:499 - Migrated 1 channel(s) to the new Selector.
+2023-08-22 14:03:54.501 [lettuce-nioEventLoop-4-1] INFO  io.lettuce.core.protocol.CommandHandler:217 - null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:745)
+2023-08-22 14:03:54.507 [lettuce-eventExecutorLoop-1-9] INFO  io.lettuce.core.protocol.ConnectionWatchdog:171 - Reconnecting, last destination was /127.0.0.1:6379
+2023-08-22 14:03:54.514 [lettuce-nioEventLoop-4-7] INFO  io.lettuce.core.protocol.ReconnectionHandler:174 - Reconnected to 127.0.0.1:6379
+2023-08-22 14:03:54.516 [lettuce-nioEventLoop-4-7] WARN  io.netty.channel.nio.NioEventLoop:628 - Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@43d3e794.
+2023-08-22 14:03:54.518 [lettuce-nioEventLoop-4-7] INFO  io.netty.channel.nio.NioEventLoop:499 - Migrated 1 channel(s) to the new Selector.
+2023-08-22 14:03:54.708 [lettuce-nioEventLoop-4-5] INFO  io.lettuce.core.protocol.CommandHandler:217 - null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:745)
+2023-08-22 14:03:54.808 [lettuce-eventExecutorLoop-1-8] INFO  io.lettuce.core.protocol.ConnectionWatchdog:171 - Reconnecting, last destination was /127.0.0.1:6379
+2023-08-22 14:03:54.816 [lettuce-nioEventLoop-4-8] INFO  io.lettuce.core.protocol.ReconnectionHandler:174 - Reconnected to 127.0.0.1:6379
+2023-08-22 14:03:54.817 [lettuce-nioEventLoop-4-8] WARN  io.netty.channel.nio.NioEventLoop:628 - Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@23edd8b9.
+2023-08-22 14:03:54.819 [lettuce-nioEventLoop-4-8] INFO  io.netty.channel.nio.NioEventLoop:499 - Migrated 1 channel(s) to the new Selector.
+2023-08-22 14:05:07.673 [SpringApplicationShutdownHook] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler MyScheduler_$_FixedGear-Amateur1692668302685 paused.
+2023-08-22 14:05:08.761 [SpringApplicationShutdownHook] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:847 - Shutting down Quartz Scheduler
+2023-08-22 14:05:08.762 [SpringApplicationShutdownHook] INFO  org.quartz.core.QuartzScheduler:666 - Scheduler MyScheduler_$_FixedGear-Amateur1692668302685 shutting down.
+2023-08-22 14:05:08.762 [SpringApplicationShutdownHook] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler MyScheduler_$_FixedGear-Amateur1692668302685 paused.
+2023-08-22 14:05:08.764 [SpringApplicationShutdownHook] INFO  org.quartz.core.QuartzScheduler:740 - Scheduler MyScheduler_$_FixedGear-Amateur1692668302685 shutdown complete.
+2023-08-22 14:05:08.779 [SpringApplicationShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:217 - dynamic-datasource start closing ....
+2023-08-22 14:05:08.786 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource:2105 - {dataSource-1} closing ...
+2023-08-22 14:05:08.835 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource:2178 - {dataSource-1} closed
+2023-08-22 14:05:08.836 [SpringApplicationShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:221 - dynamic-datasource all closed success,bye
